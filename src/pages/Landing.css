@@ -1,0 +1,35 @@
+.btnWrapper button:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.contentStyle {
+  width: 100%;
+  background-color: #2941ab;
+  background-image: url("https://www-growth.scdn.co/static/home/bursts-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 175%;
+  background-position: 46% 4%;
+  min-height: 846px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+@media (min-width: 480px) {
+  .contentStyle {
+    background-image: url("https://www-growth.scdn.co/static/home/bursts-tablet.svg");
+    background-size: 153%;
+    background-position: right 40% center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1200px) {
+  .contentStyle {
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+    background-size: 175%;
+    background-position: 46% 6%;
+    justify-content: center;
+  }
+}

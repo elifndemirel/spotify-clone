@@ -1,0 +1,51 @@
+.footer {
+  background-color: black;
+  position: relative;
+}
+
+.footer .footerHead {
+  font-size: 13px;
+}
+
+.footer .textSpan {
+  font-size: 13px;
+  text-decoration: none;
+  color: #919496;
+}
+
+.footer .textTitle {
+  font-size: 13px;
+  text-decoration: none;
+  color: #919496;
+}
+
+.footer .textInfo {
+  font-size: 13px;
+  text-decoration: none;
+  color: #919496;
+}
+
+.footer .textInfo:hover {
+  color: #1ed760;
+}
+
+.footer .textFoot {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .footerList {
+  margin-bottom: 0;
+}
+
+.footer .footerList li {
+  margin-bottom: 10px;
+}
+
+.footer .footerList li a:hover {
+  color: #1ed760;
+}
+
+.footer .footerList li:last-child {
+  margin-bottom: 0;
+}

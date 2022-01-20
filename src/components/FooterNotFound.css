@@ -1,0 +1,51 @@
+.footer {
+  background-color: black;
+  position: relative;
+}
+
+.footer .footerHead {
+  font-size: 13px;
+}
+
+.footer .textSpan {
+  font-size: 13px;
+  text-decoration: none;
+  color: #919496;
+}
+
+.footer .textTitle {
+  font-size: 13px;
+  text-decoration: none;
+  color: #919496;
+}
+
+.footer .textInfoNotFound {
+  font-size: 13px;
+  text-decoration: none;
+  color: #919496;
+}
+
+.footer .textInfoNotFound:hover {
+  color: #f037a5;
+}
+
+.footer .textFoot {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .footerListNotFound {
+  margin-bottom: 0;
+}
+
+.footer .footerListNotFound li {
+  margin-bottom: 10px;
+}
+
+.footer .footerListNotFound li a:hover {
+  color: #f037a5;
+}
+
+.footer .footerListNotFound li:last-child {
+  margin-bottom: 0;
+}
