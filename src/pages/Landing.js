@@ -14,7 +14,7 @@ export default class Landing extends Component {
               <div className="col-12 mt-xs-4">
                 <h1
                   style={{
-                    fontSize: "9em",
+                    fontSize: "10vw",
                     fontWeight: "bold",
                     color: "#1ed760",
                   }}
@@ -29,7 +29,7 @@ export default class Landing extends Component {
               <div className="col-12">
                 <p
                   style={{
-                    fontSize: "1.1em",
+                    fontSize: "1.5vw",
                     color: "#1ed760",
                   }}
                 >
