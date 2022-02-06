@@ -9,15 +9,24 @@ import {
   Input,
   Button,
 } from "reactstrap";
+import ReCAPTCHA from "react-google-recaptcha";
 import SpotifyLogo from "../assets/Spotify_Logo_CMYK_Black.png";
 import { AiFillFacebook, AiFillApple } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
 import "./Login.css";
 
 export default class Login extends Component {
+  handleOnChange(value) {
+    console.log("Captcha value:", value);
+  }
   render() {
     return (
       <div>
+        <ReCAPTCHA
+          sitekey="6Lc0-14eAAAAAHj_m9GfAWkDHTJHT-OVXkNhseMz"
+          size="invisible"
+          onChange={this.handleOnChange}
+        />
         <Container>
           <Row className="mt-3 mb-3">
             <Col
@@ -148,7 +157,7 @@ export default class Login extends Component {
                   />
                 </FormGroup>
                 <div className="mb-3">
-                  <a href="#" style={{ color: "black" }}>
+                  <a href="/password-reset" style={{ color: "black" }}>
                     Parolanı mı unuttun?
                   </a>
                 </div>
