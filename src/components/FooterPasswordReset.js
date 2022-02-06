@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { BiWorld } from "react-icons/bi";
-import "./Footer.css";
 
 export default class Footer extends Component {
   render() {
