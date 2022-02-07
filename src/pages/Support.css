@@ -1,0 +1,7 @@
+.contentBg {
+  background-image: url("../assets/search-desktop.png");
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-position: center;
+  background-size: cover;
+}
