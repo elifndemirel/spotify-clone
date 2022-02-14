@@ -1,14 +1,5 @@
 import React, { Component } from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  Button,
-} from "reactstrap";
+import { Container, Row, Col, Form, FormGroup, Label, Input } from "reactstrap";
 import ReCAPTCHA from "react-google-recaptcha";
 import SpotifyLogo from "../assets/Spotify_Logo_CMYK_Black.png";
 import { AiFillFacebook, AiFillApple } from "react-icons/ai";
@@ -110,8 +101,8 @@ export default class Login extends Component {
               </button>
             </Col>
           </Row>
-          <Row>
-            <Col xs="12">
+          <Row className="d-flex justify-content-center align-items-center">
+            <Col sm="12" xs="12" md="6" lg="6">
               <div class="hrdivider">
                 {" "}
                 <hr /> <span>VEYA</span>{" "}
@@ -161,14 +152,17 @@ export default class Login extends Component {
                     Parolanı mı unuttun?
                   </a>
                 </div>
-                <div className="d-flex justify-content-start align-items-start">
+                <div style={{ float: "left", marginLeft: "-22px" }}>
                   <Form>
                     <FormGroup check inline>
-                      <Input
+                      <input
                         type="checkbox"
-                        style={{ backgroundColor: "#169b45" }}
+                        className="me-2"
+                        style={{ accentColor: "#169b45" }}
                       />
-                      <Label check>Beni hatırla</Label>
+                      <Label check style={{ fontSize: "14px" }}>
+                        Beni hatırla
+                      </Label>
                     </FormGroup>
                   </Form>
                 </div>
@@ -182,7 +176,7 @@ export default class Login extends Component {
                       backgroundColor: "#1ed760",
                       color: "black",
                       borderRadius: "30px",
-                      width: "140%",
+                      width: "150px",
                       border: "none",
                     }}
                   >
@@ -192,7 +186,11 @@ export default class Login extends Component {
               </Form>
             </div>
           </Row>
-          <hr />
+          <Row className="d-flex justify-content-center align-items-center">
+            <Col sm="12" xs="12" md="6" lg="6">
+              <hr />
+            </Col>
+          </Row>
           <Row className="mt-4">
             <Col
               xs="12"
