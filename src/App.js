@@ -4,6 +4,7 @@ import Landing from "./pages/Landing";
 import Premium from "./pages/Premium";
 import Support from "./pages/Support";
 import Download from "./pages/Download";
+import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
 import PasswordReset from "./pages/PasswordReset";
@@ -18,6 +19,7 @@ function App() {
             <Route exact path="/premium" element={<Premium />} />
             <Route exact path="/support" element={<Support />} />
             <Route exact path="/download" element={<Download />} />
+            <Route exact path="/signup" element={<Signup />} />
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/password-reset" element={<PasswordReset />} />
             <Route exact path="*" element={<NotFound />} />
