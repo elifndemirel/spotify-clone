@@ -1,1 +1,1 @@
-## Spotify Clone Project
+## Spotify Clone Project with React
